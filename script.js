@@ -10,3 +10,9 @@ $(window).scroll(function(){
 
     }
 });
+
+const getImg = document.querySelector("#about img");
+new simpleParallax(getImg, {
+    orientation:"up right",
+    delay: 0.8,
+});

@@ -277,7 +277,7 @@ section {
 /* about */
 .twl-col-grid {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:2fr 2fr;
     align-items: center;
     gap: 60px;
 }
@@ -295,6 +295,9 @@ section {
     font-size: 30px;
     margin-top: px;
     text-transform: uppercase;
+}
+.content>p{
+    color: #B4B4B8;
 }
 
 .btn-hire {
@@ -318,7 +321,6 @@ section {
     letter-spacing: 5px;
     margin-bottom: 60px;
 }
-
 @media (max-width: 850px) {
    .twl-col-grid {
     grid-template-columns: 1fr;

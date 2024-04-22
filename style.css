@@ -89,7 +89,7 @@ section {
 
 /* hero */
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/wisuda.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url(img/wisuda.jpg);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -172,8 +172,7 @@ section {
 
 .navbar.scrolled {
     background-color: var(--color-bg-2);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 1em 0;
 }
 
 .logo {
@@ -185,8 +184,9 @@ section {
 
 .navbar .container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
 }
 
 .menu-toggle {
@@ -216,22 +216,25 @@ section {
 .navbar-items  {
     display: flex;
     list-style: none;
+    flex-direction: row;
+    padding-top: 1em;
 }
 
 .navbar-items a {
-    color: wheat;
+    color: var(--color-body);
     text-decoration: none;
-    margin: 15px;
+    margin: 0 15px;
     transition: all 0.5s ease-in-out;
 }
 
 .navbar-items a:hover {
     color: var(--color-object);
+    background-color: var(--color-bg-1);
+    padding: 0.5em 1em;
+    border-radius: 4px;
 }
 
-.navbar-items .nav-link {
-    padding-left: 15px;
-}
+
 
 @media (max-width: 850px) {
     .navbar {

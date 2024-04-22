@@ -60,7 +60,7 @@ h1 {
 
 .content a {
     /* text-decoration: none; */
-    color: white;
+    color: whitblacke;
 }
 
 
@@ -138,7 +138,6 @@ section {
 }
 
 .btn {
-    padding: 11px 25px;
     border: 1.5px solid var(--color-object);
     border-radius: 6px;
     background-color: var(--color-object);
@@ -146,6 +145,8 @@ section {
     transition: .2s ease-in-out;
     letter-spacing: 1px;
     margin-top: -20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
 }
 
 .btn:hover {
@@ -377,8 +378,6 @@ section {
     top: 0;
     right: 0;
     z-index: -1;
-    border-radius: 5px;
-    
 }
 
 

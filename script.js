@@ -33,5 +33,5 @@ let typed = new Typed(textElement, {
     showCursor: false,
     fadeOut: true,
     fadeOutClass: 'typed-fade-out',
-    fadeOutDelay: 200,
+    fadeOutDelay: 400,
 });

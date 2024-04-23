@@ -45,6 +45,7 @@ h1 {
     letter-spacing: 1px;
 }
 
+
 @media (max-width: 370px) {
     h1 {
         font-size: 25px;

@@ -179,7 +179,7 @@ section {
 
 .navbar.scrolled {
     background-color: var(--color-bg-2);
-    padding: 0.8em 0;
+    padding: 0.4em 0;
 }
 
 .logo {
@@ -199,7 +199,7 @@ section {
 .menu-toggle {
     width: 50px;
     height: 50px;
-    background-color: var(--color-bg-1);
+    background-color: rgb(35, 44, 46);
     color: white;
     font-size: 32px;
     display: flex;
@@ -250,6 +250,10 @@ section {
         padding: 10px 0;
     }
 
+    .navbar.scrolled {
+        background-color: transparent;
+        padding: 0.8em 0;
+    }
     .menu-toggle {
         display: flex;
     }
@@ -257,23 +261,35 @@ section {
     .navbar-nav {
         position: absolute;
         bottom: 70px;
-        width: 50%;
-        background-color: transparent;
+        width: 30%;
         bottom: 0;
-        bottom: -200%;
+        right: -100%;
         padding: 25px 0;
+        text-align: center;
         transition: all 0.8s ease-in-out;
-    }
-    
-    .navbar-nav.active {
-        bottom: 2rem;        
+        margin: 0 20px 50px 0  ;
     }
 
+    .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar-items {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        flex-direction: column;
+    }
+    .navbar-items a:hover{
+        background-color: transparent;
+    }
    
     .navbar-items .nav-link {
         margin-top: 15px;
         display: block;
     }
+
+
 } 
 
 

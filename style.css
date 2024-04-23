@@ -253,27 +253,24 @@ section {
     .menu-toggle {
         display: flex;
     }
-
     .navbar-nav {
-        position: absolute;
-        bottom: 70px;
-        width: 100%;
-        background-color:rgb(44, 54, 57, 0.8);
-        right: 0;
-        right: -100%;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, -5%);
+        width: 50%;
+        background-color: transparent;
+        visibility: hidden;
+        opacity: 0;
         padding: 25px 0;
-        text-align: center;
-        transition: all 0.8s ease-in-out;
-        
+        transition: visibility 0s, opacity 0.8s ease-in-out; 
     }
-
+    
     .navbar-nav.active {
-        right: 0;
+        visibility: visible ;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.8s ease-in-out;    
     }
 
-    .navbar-items {
-        flex-direction: column;
-    }
    
     .navbar-items .nav-link {
         margin-top: 15px;

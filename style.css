@@ -253,22 +253,20 @@ section {
     .menu-toggle {
         display: flex;
     }
+
     .navbar-nav {
-        position: fixed;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: 70px;
         width: 50%;
         background-color: transparent;
-        visibility: hidden;
-        opacity: 0;
+        bottom: 0;
+        bottom: -200%;
         padding: 25px 0;
-        transition: visibility 0s, opacity 0.8s ease-in-out; 
+        transition: all 0.8s ease-in-out;
     }
     
     .navbar-nav.active {
-        visibility: visible ;
-        opacity: 1;
-        transition: visibility 0s, opacity 0.8s ease-in-out;    
+        bottom: 2rem;        
     }
 
    

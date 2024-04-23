@@ -256,7 +256,7 @@ section {
     .navbar-nav {
         position: fixed;
         left: 50%;
-        transform: translate(-50%, -5%);
+        transform: translate(-50%, -50%);
         width: 50%;
         background-color: transparent;
         visibility: hidden;

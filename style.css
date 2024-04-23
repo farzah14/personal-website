@@ -9,6 +9,7 @@
     --font-base: 'Roboto';
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -87,6 +88,11 @@ section {
     padding-right: 24px;
 }
 
+#logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 28px;
+}
 /* hero */
 #home {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)), url(img/wisuda.jpg);
@@ -318,6 +324,15 @@ section {
  
 }
 
+.icon{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color:var(--color-body);
+}
+#home a {
+    text-decoration: none;
+}
+
 #about p {
     letter-spacing: 5px;
     margin-bottom: 60px;
@@ -352,7 +367,7 @@ section {
 }
 
 .intro .text {
-    color: white;
+    color: #B4B4B8;
     letter-spacing: 5px;
     line-height: 23px;
     margin-top: 30px;

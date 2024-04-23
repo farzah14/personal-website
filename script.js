@@ -30,4 +30,8 @@ let typed = new Typed(textElement, {
     loopCount: Infinity,
     startDelay: 20,
     endDelay: 60,
+    showCursor: false,
+    fadeOut: true,
+    fadeOutClass: 'typed-fade-out',
+    fadeOutDelay: 200,
 });

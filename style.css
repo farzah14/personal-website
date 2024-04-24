@@ -481,6 +481,15 @@ section {
     }
 }
 
+@media(max-width:530px) {
+    .three-col-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        grid-auto-columns:auto;
+    }
+}
+
 
 .two-col-grid {
     margin-top: 40px;

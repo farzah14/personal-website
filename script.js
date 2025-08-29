@@ -4,7 +4,7 @@ $(".menu-toggle").click(function() {
 
 $(window).scroll(function(){
     if($(this).scrollTop() > 0)  {
-       $(".navbar"). addClass("scrolled");
+        $(".navbar"). addClass("scrolled");
     } else {
         $(".navbar"). removeClass("scrolled");
 
